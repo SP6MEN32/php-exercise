@@ -7,9 +7,16 @@ function floflo(){
 floflo();
  ?> -->
 <!-- exercice function exo 2 -->
-<?php
+<!-- <?php
 function flo($a){
   echo $a;
 }
 flo(5);
- ?>
+ ?> -->
+ <!-- exercice function exo 3 -->
+ <?php
+function foo($a,$b,$c){
+  echo ($a. $b. $c);
+}
+foo(f, l, o);
+  ?>
