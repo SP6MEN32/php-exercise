@@ -27,14 +27,20 @@ for ($i=0; $i <10 ; $i++) {
 		}
 ?> -->
 <!-- exercice loop exo 4 -->
-<?php
+<!-- <?php
 $numeroUno=1;
 while($numeroUno <=10) {
 $numeroUno=$numeroUno + ($numeroUno/2);
 	echo $numeroUno;
 	echo " ";
 }
-
-
+?> -->
+<!-- exercice loop exo 5 -->
+<?php
+$homep=1;
+for ($homep=1; $homep <=15 ; $homep++) {
+	echo "On y arrive presque";
+	echo " ";
+}
 
  ?>
