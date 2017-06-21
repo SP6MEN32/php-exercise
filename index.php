@@ -52,10 +52,19 @@ for ($anzahl=20; $anzahl >=0 ; $anzahl--) {
 }
 ?> -->
 <!-- exercice loop exo 7 -->
-<?php
+<!-- <?php
 $zenbakia=1;
 while ($zenbakia <= 100) {
-	$zenbakia=$zenbakia+15;
+	$zenbakia = $zenbakia+15;
 	echo "On tient le bon bout_";
+}
+ ?> -->
+<!-- exercice loop exo 8 -->
+<?php
+$hymap=200;
+while ($hymap >= 0) {
+	echo $hymap;
+	echo " ";
+	$hymap = $hymap-12;
 }
  ?>
