@@ -44,11 +44,18 @@ for ($homep=1; $homep <=15 ; $homep++) {
 }
 ?> -->
 <!-- exercice loop exo 6 -->
-<?php
+<!-- <?php
 $anzahl=20;
 for ($anzahl=20; $anzahl >=0 ; $anzahl--) {
 	echo "Cest presque bon";
 	echo " ";
 }
-
+?> -->
+<!-- exercice loop exo 7 -->
+<?php
+$zenbakia=1;
+while ($zenbakia <= 100) {
+	$zenbakia=$zenbakia+15;
+	echo "On tient le bon bout_";
+}
  ?>
