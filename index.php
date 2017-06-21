@@ -36,10 +36,18 @@ $numeroUno=$numeroUno + ($numeroUno/2);
 }
 ?> -->
 <!-- exercice loop exo 5 -->
-<?php
+<!-- <?php
 $homep=1;
 for ($homep=1; $homep <=15 ; $homep++) {
 	echo "On y arrive presque";
+	echo " ";
+}
+?> -->
+<!-- exercice loop exo 6 -->
+<?php
+$anzahl=20;
+for ($anzahl=20; $anzahl >=0 ; $anzahl--) {
+	echo "Cest presque bon";
 	echo " ";
 }
 
