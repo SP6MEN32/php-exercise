@@ -14,9 +14,24 @@ function flo($a){
 flo(5);
  ?> -->
  <!-- exercice function exo 3 -->
- <?php
+ <!-- <?php
 function foo($a,$b,$c){
   echo ($a. $b. $c);
 }
 foo(f, l, o);
-  ?>
+  ?> -->
+<!-- exercice function exo 4 -->
+<?php
+function number($a, $b){
+  if ($a > $b) {
+  echo "le premier nombre est plus grand";
+  }
+  elseif ($a < $b){
+    echo "le premier nombre est plus petit";
+  }
+  else{
+    echo "les deux nombre sont identiques";
+  }
+}
+number(3, 2);
+?>
