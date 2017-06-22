@@ -3,9 +3,9 @@
 $array = array("janvier","fevrier","mars",
 "avril","mai","juin","juillet","aout",
 "septembre","octobre","novembre","decembre");
-  echo '<pre>';
-    print_r ($array);
-  echo '</pre>';
+  // echo '<pre>';
+  //   print_r ($array);
+  // echo '</pre>';
 
 //   // exercice array exo 2
  echo '<pre>';
@@ -18,10 +18,10 @@ $array = array("janvier","fevrier","mars",
  echo '</pre>';
 
   // exercice array exo 4
-// $array[7] = "août";
-//  echo $array;
-  $new = array(7 => "août");
-  $array = array_replace_recursive($array,$new);
+ $array[7] = "août";
+
+  // $new = array(7 => "août");
+  // $array = array_replace_recursive($array,$new);
   echo '<pre>';
   print_r($array);
   echo '</pre>';
@@ -30,7 +30,10 @@ $array = array("janvier","fevrier","mars",
 $departement['dep59'] = "Nord et sa ville de Lille (62)";
 $departement['dep62'] ="Pas de Calais et sa ville de Arras (62)" ;
 echo $departement ['dep62'];
+
+
+
+
+
+
 ?>
-
-
- ?>
