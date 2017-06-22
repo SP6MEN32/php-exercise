@@ -26,4 +26,11 @@ $array = array("janvier","fevrier","mars",
   print_r($array);
   echo '</pre>';
 
+//exercice array exo 5
+$departement['dep59'] = "Nord et sa ville de Lille (62)";
+$departement['dep62'] ="Pas de Calais et sa ville de Arras (62)" ;
+echo $departement ['dep62'];
+?>
+
+
  ?>
