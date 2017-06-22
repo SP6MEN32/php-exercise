@@ -21,7 +21,7 @@ function foo($a,$b,$c){
 foo(f, l, o);
   ?> -->
 <!-- exercice function exo 4 -->
-<?php
+<!-- <?php
 function number($a, $b){
   if ($a > $b) {
   echo "le premier nombre est plus grand";
@@ -34,4 +34,11 @@ function number($a, $b){
   }
 }
 number(3, 2);
-?>
+?> -->
+<!-- exercice function exo 5 -->
+<?php
+function caract($a, $b){
+  echo "$a" . "$b";
+}
+caract("je suis SP6MEN32 et je suis du departement du", 32);
+ ?>
