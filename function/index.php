@@ -45,9 +45,27 @@ function caract($a, $b){
 caract("je suis SP6MEN32 et je suis du departement du", 32);
  ?> -->
 <!-- exercice function exo 6 -->
-<?php
+<!-- <?php
 function presentme($a, $b, $c){
   echo "bonjour"." "."$a"." "."$b"." ".",tu as"." "."$c"." "."ans.";
 }
 presentme("Argemi", "Florian", 32);
+ ?> -->
+<!-- exercice function exo 7 -->
+<?php
+function genre($a, $b){
+  if ($a === "homme" && $b >= 18){
+    echo "Vous etes un homme et vous etes majeur";
+  }
+  elseif ($a === "homme" && $b <18) {
+    echo "Vous etes un homme et vous ete mineur";
+  }
+  elseif ($a === "femme" && $b >= 18){
+    echo "Vous etes une femme et vous etes majeur";
+  }
+  else{
+    echo "Vous etes une femme et vous etes mineur";
+  }
+}
+genre("homme", 32);
  ?>
