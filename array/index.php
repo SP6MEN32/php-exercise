@@ -3,9 +3,6 @@
 $array = array("janvier","fevrier","mars",
 "avril","mai","juin","juillet","aout",
 "septembre","octobre","novembre","decembre");
-  // echo '<pre>';
-  //   print_r ($array);
-  // echo '</pre>';
 
 //   // exercice array exo 2
  echo '<pre>';
@@ -27,9 +24,11 @@ $array = array("janvier","fevrier","mars",
   echo '</pre>';
 
 //exercice array exo 5
-$departement['dep59'] = "Nord et sa ville de Lille (62)";
+$departement['dep59'] = "Nord et sa ville de Lille (59)";
 $departement['dep62'] ="Pas de Calais et sa ville de Arras (62)" ;
-echo $departement ['dep62'];
+
+//exercice array exo6
+echo $departement ['dep59'];
 
 
 
