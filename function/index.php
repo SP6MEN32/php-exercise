@@ -52,7 +52,7 @@ function presentme($a, $b, $c){
 presentme("Argemi", "Florian", 32);
  ?> -->
 <!-- exercice function exo 7 -->
-<?php
+<!-- <?php
 function genre($a, $b){
   if ($a === "homme" && $b >= 18){
     echo "Vous etes un homme et vous etes majeur";
@@ -68,4 +68,15 @@ function genre($a, $b){
   }
 }
 genre("homme", 32);
- ?>
+ ?> -->
+<!-- exercice function exo 8 -->
+<?php
+$oneNum = 10;
+$twoNum = 20;
+$threeNum = 30;
+
+function add($oneNum, $twoNum, $threeNum){
+  echo "$oneNum"+"$twoNum"+"$threeNum";
+}
+add($oneNum, $twoNum, $threeNum);
+?>
