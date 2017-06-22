@@ -35,10 +35,19 @@ function number($a, $b){
 }
 number(3, 2);
 ?> -->
+
 <!-- exercice function exo 5 -->
-<?php
+
+<!-- <?php
 function caract($a, $b){
   echo "$a" . "$b";
 }
 caract("je suis SP6MEN32 et je suis du departement du", 32);
+ ?> -->
+<!-- exercice function exo 6 -->
+<?php
+function presentme($a, $b, $c){
+  echo "bonjour"." "."$a"." "."$b"." ".",tu as"." "."$c"." "."ans.";
+}
+presentme("Argemi", "Florian", 32);
  ?>
