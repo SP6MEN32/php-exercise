@@ -21,10 +21,5 @@
     $prenom = $_POST['prenom'];
     $sexe = $_POST['sexe'];
     echo($nom." ".$prenom." ".$sexe);
-    $p = $_SERVER['PHP_SELF'];
-
-
-  echo '<script>alert("TON TEXTE");</script>';
-
- }
+  }
  ?>
