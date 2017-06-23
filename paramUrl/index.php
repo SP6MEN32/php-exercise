@@ -37,3 +37,29 @@
   	echo 'Il faut renseigner un langage et un serveur !';
   }
 ?> -->
+
+<!-- <?php
+  //exercice paramUrl exo 5
+  $semaine = $_GET['semaine'];
+
+  if ($semaine==='12') {
+    echo ($semaine);
+  }
+  else {
+    echo "tu te fou de moi vilain hacker !";
+  }
+?> -->
+
+<?php
+  // exercice paramUrl exo 6
+  $batiment = $_GET['batiment'];
+  $salle = $_GET['salle'];
+
+  if ($batiment==='12'&& $salle==='101'){
+  	echo "tu es au bon endroit !";
+  }
+  else
+  {
+    echo "youpi tu es perdu !";
+  }
+  ?>
