@@ -18,5 +18,10 @@
     setlocale(LC_TIME, 'fr_FR.utf8', 'fra');
     echo strftime('%A %d %B %Y');
     ?>
+    <h3>--exercice date exo 4--</h3>
+    <?php
+    echo strtotime('tuesday 2 august 2016');
+
+    ?>
   </body>
 </html>
