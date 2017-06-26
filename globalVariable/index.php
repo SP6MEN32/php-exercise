@@ -51,4 +51,8 @@ session_start();
         $_COOKIE['login'] = $_POST['login'];
         $_COOKIE['mdp'] = $_POST['mdp'];
 
+        echo '<h1>' . $_COOKIE['mdp'] . '</h1>';
+     echo '<h1>' . $_COOKIE['login'] . '</h1>';
+
+
 ?>
