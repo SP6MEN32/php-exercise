@@ -35,5 +35,9 @@
     $nbJours = $nbJoursTimestamp/86400;
     echo "Nombre de jours : ".$nbJours;
     ?>
+    <h3>--exercice date exo 6--</h3>
+    <?php
+    echo cal_days_in_month(CAL_GREGORIAN, 2, 2016);
+    ?>
   </body>
 </html>
